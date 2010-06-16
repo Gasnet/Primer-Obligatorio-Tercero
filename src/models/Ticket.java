@@ -4,6 +4,7 @@
  */
 
 package models;
+import dataTypes.DTEstado;
 import dataTypes.DTTicket;
 import dataTypes.NombreEstado;
 import dataTypes.TipoTicket;
@@ -114,4 +115,30 @@ public class Ticket {
         this.direccion = "";
         this.notificado = null;
     }
+
+
+
+    public DTTicket toDTTicket(){
+        ArrayList<DTEstado> estados = new ArrayList<DTEstado>();
+        estados.add(this.notificado.toDTEstado());
+        if(this.asignado!=null)
+            estados.add(this.asignado.toDTEstado());
+        if(this.finalizado!=null)
+            estados.add(this.finalizado.toDTEstado());
+
+        TipoTicket tipo = null;
+        
+        if(this instanceof SolTecnicas){
+            tipo = TipoTicket.SolTecnica;
+        }else if(this instanceof Queja){
+            tipo = TipoTicket.Queja;
+        }else if(this instanceof Comentario){
+            tipo = TipoTicket.Comentario;
+        }else if(this instanceof Sugerencia){
+            tipo = TipoTicket.Sugerencia;
+        }
+
+        return new DTTicket(this.id, this.nombreCliente, this.direccion, this.telefono, this.detalle, tipo, estados);
+    }
+
 }

@@ -3,17 +3,13 @@
  * and open the template in the editor.
  */
 
-package models;
-
-import dataTypes.DTTitulo;
+package dataTypes;
 
 /**
  *
  * @author gaston
  */
-public class Titulo {
-
-    private static int contador=0;
+public class DTTitulo {
     private int id;
     private String titulo;
     private String descripcion;
@@ -22,26 +18,20 @@ public class Titulo {
         return descripcion;
     }
 
-    public String getTitulo() {
-        return titulo;
-    }
-
     public int getId() {
         return id;
     }
 
+    public String getTitulo() {
+        return titulo;
+    }
 
-    public Titulo(String titulo, String descripcion) {
-        this.id = ++contador;
+    public DTTitulo(int id, String titulo, String descripcion) {
+        this.id = id;
         this.titulo = titulo;
         this.descripcion = descripcion;
     }
 
-    public DTTitulo toDTTitulo(){
-        return new DTTitulo(this.id, this.titulo, this.descripcion);
-    }
-
     
-
 
 }

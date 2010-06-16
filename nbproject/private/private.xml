@@ -1,27 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/1"/>
-    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/1">
-        <file>file:/media/KINGSTON/Obligatorio/CallCenter/src/callcenter/Main.java</file>
-        <file>file:/media/KINGSTON/Obligatorio/CallCenter/src/models/Usuario.java</file>
-        <file>file:/media/KINGSTON/Obligatorio/CallCenter/src/models/Estado.java</file>
-        <file>file:/media/KINGSTON/Obligatorio/CallCenter/src/models/Ticket.java</file>
-        <file>file:/media/KINGSTON/Obligatorio/CallCenter/src/dataTypes/NombreEstado.java</file>
-        <file>file:/media/KINGSTON/Obligatorio/CallCenter/src/models/SolTecnicas.java</file>
-        <file>file:/media/KINGSTON/Obligatorio/CallCenter/src/models/Queja.java</file>
-        <file>file:/media/KINGSTON/Obligatorio/CallCenter/src/models/Comentario.java</file>
-        <file>file:/media/KINGSTON/Obligatorio/CallCenter/src/models/Sugerencia.java</file>
-        <file>file:/media/KINGSTON/Obligatorio/CallCenter/src/models/UGerente.java</file>
-        <file>file:/media/KINGSTON/Obligatorio/CallCenter/src/models/UOperador.java</file>
-        <file>file:/media/KINGSTON/Obligatorio/CallCenter/src/models/UMarketing.java</file>
-        <file>file:/media/KINGSTON/Obligatorio/CallCenter/src/models/UComercial.java</file>
-        <file>file:/media/KINGSTON/Obligatorio/CallCenter/src/models/UTecnico.java</file>
-        <file>file:/media/KINGSTON/Obligatorio/CallCenter/src/models/UEncargado.java</file>
-        <file>file:/media/KINGSTON/Obligatorio/CallCenter/src/models/Titulo.java</file>
-        <file>file:/media/KINGSTON/Obligatorio/CallCenter/src/dataTypes/TipoUsuario.java</file>
-        <file>file:/media/KINGSTON/Obligatorio/CallCenter/src/dataTypes/TipoTicket.java</file>
-        <file>file:/media/KINGSTON/Obligatorio/CallCenter/src/dataTypes/DTEstado.java</file>
-        <file>file:/media/KINGSTON/Obligatorio/CallCenter/src/dataTypes/DTUsuario.java</file>
-        <file>file:/media/KINGSTON/Obligatorio/CallCenter/src/dataTypes/DTTicket.java</file>
-    </open-files>
 </project-private>

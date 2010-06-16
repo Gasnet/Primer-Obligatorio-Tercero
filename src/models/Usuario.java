@@ -5,6 +5,9 @@
 
 package models;
 
+import dataTypes.DTUsuario;
+import dataTypes.TipoUsuario;
+
 /**
  *
  * @author gaston
@@ -53,4 +56,23 @@ public class Usuario {
 
 
 
+    public DTUsuario toDTUsuario(){
+        TipoUsuario tipo = null;
+
+        if(this instanceof UComercial){
+            tipo = TipoUsuario.UComercial;
+        }else if(this instanceof UEncargado){
+            tipo = TipoUsuario.UEncargado;
+        }else if(this instanceof UGerente){
+            tipo = TipoUsuario.UGerente;
+        }else if(this instanceof UMarketing){
+            tipo = TipoUsuario.UMarketing;
+        }else if(this instanceof UOperador){
+            tipo = TipoUsuario.UOperador;
+        }else if(this instanceof UTecnico){
+            tipo = TipoUsuario.UTecnico;
+        }
+
+        return new DTUsuario(this.nombre, this.password, this.cedula, tipo);
+    }
 }

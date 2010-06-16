@@ -67,7 +67,7 @@ public class Estado {
     }
 
     public DTEstado toDTEstado(){
-        return new DTEstado(this.nombre, this.observacion, this.fecha, null)
+        return new DTEstado(this.nombre, this.observacion, this.fecha, this.usuario.toDTUsuario());
     }
 
 

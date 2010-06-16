@@ -12,6 +12,8 @@ package dataTypes;
 public enum TipoUsuario {
     UOperador,
     UGerente,
+    //Encargado genérico. Se retorna en la operacion toDTUsuario
+    UEncargado,
     UEncargadoMarketing,
     UEncargadoComercial,
     UEncargadoTecnico,

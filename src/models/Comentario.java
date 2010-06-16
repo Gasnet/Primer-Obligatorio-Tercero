@@ -23,13 +23,5 @@ public class Comentario extends Ticket{
         estadosFinales.add(NombreEstado.Visto);
         estadosFinales.add(NombreEstado.Desestimado);
     }
-
-    public DTTicket toDTTicket(){
-        ArrayList<DTEstado> estados = new ArrayList<DTEstado>();
-        estados.add
-        return new DTTicket(getId(), getNombreCliente(), getDireccion(),
-                            getTelefono(), getDetalle(), TipoTicket.Comentario, null)
-    }
-
-
+    
 }
